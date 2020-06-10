@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>CheckLogin</servlet-name>
+        <servlet-class>Controller.CheckLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckLogin</servlet-name>
+        <url-pattern>/CheckLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>Controller.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GetPitches</servlet-name>
+        <servlet-class>Controller.GetPitches</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetPitches</servlet-name>
+        <url-pattern>/GetPitches</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddReservation</servlet-name>
+        <servlet-class>Controller.AddReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddReservation</servlet-name>
+        <url-pattern>/AddReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditPitches</servlet-name>
+        <servlet-class>Controller.EditPitches</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditPitches</servlet-name>
+        <url-pattern>/EditPitches</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminPitches</servlet-name>
+        <servlet-class>Controller.AdminPitches</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminPitches</servlet-name>
+        <url-pattern>/AdminPitches</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,248 @@
+body{
+    background: conic-gradient(forestgreen,green,forestgreen,green,forestgreen,green,forestgreen,green,forestgreen,green,forestgreen, green,forestgreen);
+   /* background-repeat: repeat-y;*/
+}
+div.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.header{
+    font: italic bold 12px/30px Georgia, serif;
+    top: 0;
+    width: 97%;
+    height: 10%;
+    color: white;
+}
+div.logo{
+    float: left;
+    position: absolute;
+    font-size: 50px;
+    width: 25%;
+    text-align: center;
+}
+div.menu{
+    float: right;
+    font: italic bold 12px/30px Georgia, serif;
+    position: relative;
+    font-size: 25px;
+    width: 75%;
+    text-align: center;
+}
+div.content{
+    width: 100%;
+    height: 80%;
+}
+div.footer{
+    float: bottom;
+    position: relative;
+    bottom: 0px;
+    width: 97%;
+    height: 5%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+div.loginform{
+    border-radius: 40px;
+    background: rgba(76,175,80,0.6);
+    width: 30%;
+    height: 60%;
+    top: 15%;
+    left: 30%;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+}
+div.loginform input{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    margin : 0 auto;
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+div.loginform div{
+    margin-top: 40px;
+    font-size: 20px;
+}
+::placeholder {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+div.loginform button{
+    border-radius: 10px;
+    display: block;
+    margin : 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 15%;
+    background: black;
+    font-size: 20px;
+    color: white;
+}
+div.loginform a{
+    text-decoration: none;
+    color: white;
+}
+div.loginform button:hover{
+    background: rgba(0, 0, 0,0.5);
+}
+div.registerform{
+    border-radius: 40px;
+    background: rgba(76,175,80,0.6);
+    width: 36%;
+    height: 70%;
+    top: 11%;
+    left: 30%;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+}
+div.registerform input{
+    background-color: rgba(0,0,0,0.5);
+    color: black;
+    border-radius: 10px;
+    display: block;
+    margin : 0 auto;
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+div.registerform div{
+    margin-top: 40px;
+    font-size: 20px;
+}
+div.registerform button{
+    border-radius: 10px;
+    display: block;
+    margin : 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 15%;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+div.registerform a{
+    text-decoration: none;
+    color: white;
+}
+div.registerform button:hover{
+    background: rgba(0, 0, 0,0.5);
+}
+ul.menu{
+
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+ul.menu li {
+    float: right;
+    padding-right: 40px;
+}
+ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+ul.menu li a:hover {
+    border-radius: 20px;
+    background-color: black;
+}
+div.backgroudtry{
+    width: auto;
+    height: auto;
+    background-image: url("../images/img.jpg");
+    color: white;
+}
+div.footballsel{
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 40px;
+    color: black;
+    width: 49%;
+    height: 20%;
+    top: 40%;
+    float: left;
+    position: absolute;
+    background-image: url("../images/football.png");
+    text-align: center;
+}
+div.tennissel{
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 40px;
+    color: black;
+    width: 49%;
+    height: 20%;
+    top: 40%;
+    float: right;
+    position: relative;
+    background-image: url("../images/tennis.png");
+    text-align: center;
+}
+div.showmessage{
+    font: italic bold 12px/30px Georgia, serif;
+    position: absolute;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    color: black;
+}
+div.searchPitch{
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 18px;
+    width: 95%;
+    text-align: center;
+    color: white;
+    height: 30%;
+}
+div.searchPitch.a{
+
+    text-decoration: none;
+    color: white;
+}
+table.showTable{
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    width: 95%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 2%;
+}
+table.showTable tr{
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+table.showTable tr.mainTable{
+    border-bottom: 2px solid darkgray;
+    font-weight: bold;
+    font-size: 23px;
+}
+div.infoMessage{
+    text-align: center;
+    width: 95%;
+    margin-left: 2%;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+
+}
